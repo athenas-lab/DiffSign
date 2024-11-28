@@ -19,7 +19,7 @@ from controlnet_aux import OpenposeDetector
 
 """ 
     Using controlnet to transfer avatar poses to a synthetic signer 
-    generated using  prompts that are input to Stable Diffusion.
+    generated using  text prompts that are input to Stable Diffusion.
 """
 
 
