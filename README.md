@@ -3,7 +3,7 @@
 ## DiffSign: AI-Assisted Generation of Customizable Sign Language Videos with Enhanced Realism
 #### Proceedings of [ECCV Workshop on Assistive Computer Vision and Robotics (ACVR), 2024](https://iplab.dmi.unict.it/acvr2024/)
 
-![Pipeline][pipeline.jpg "Synthetic signer generation steps"]
+!["Synthetic signer generation pipeline"](images/pipeline.jpg?raw=true)
 
 ### Installation of dependencies
 - [Installation instructions for IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)
