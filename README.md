@@ -3,6 +3,8 @@
 ## DiffSign: AI-Assisted Generation of Customizable Sign Language Videos with Enhanced Realism
 #### Proceedings of [ECCV Workshop on Assistive Computer Vision and Robotics (ACVR), 2024](https://iplab.dmi.unict.it/acvr2024/)
 
+![Pipeline][pipeline.jpg "Synthetic signer generation steps"]
+
 ### Installation of dependencies
 - [Installation instructions for IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)
 - Please download the pretrained IP-Adapter model as mentioned in the site.
@@ -17,7 +19,7 @@ pip install requirements.txt
 ### Training and testing
 - The code uses pretrained IP-Adapter model, so no training is needed from scratch,
   but model can be fine-tuned on a few images using [DreamBooth](https://dreambooth.github.io/)
-  (available in the diffusers package) for personalization.
+  (available in the diffusers package on HuggingFace) for personalization.
   
 - In the code, the paths to the source videos and images are hard-coded. Please 
   change these to your paths before running the code.
