@@ -1,7 +1,16 @@
-# DiffSign (official code repo)
+# DiffSign 
+
 
 ## DiffSign: AI-Assisted Generation of Customizable Sign Language Videos with Enhanced Realism
 #### Proceedings of [ECCV Workshop on Assistive Computer Vision and Robotics (ACVR), 2024](https://iplab.dmi.unict.it/acvr2024/)
+This paper combines a parametric model and a generative model to generate synthetic signing videos 
+in which the signer appearance can be customized in a zero-shot manner based on an image or
+text prompt. The parametric model is used to retarget the signing poses with high fidelity while a diffusion
+model is used to control the appearance of the synthetic signer. 
+This repo provides the implementation of the generative phase. For retargeting the signing poses
+from human signing videos to a 3D avatar, we used a pretrained SMPLify-X model and rendered the 
+3D mesh into video frames using Blender. Please refer to the paper for further details.
+
 
 !["Synthetic signer generation pipeline"](images/pipeline.jpg?raw=true)
 
@@ -34,8 +43,8 @@ python gen_diff_signer_image_prompt.py
 python gen_diff_signer_text_prompt.py
 ```
 
-- Evaluation of the generated video
-  - Visual quality: ```python compute_vis_quality.py```
+### Evaluation of the generated video as described in the paper:
+  - Visual quality (SSIM, FID metrics): ```python compute_vis_quality.py```
   - Directional similarity: ```python compute_dir_sim.py```
 
 
