@@ -1,7 +1,7 @@
 # DiffSign 
 
 
-## DiffSign: AI-Assisted Generation of Customizable Sign Language Videos with Enhanced Realism
+## [DiffSign: AI-Assisted Generation of Customizable Sign Language Videos with Enhanced Realism](https://arxiv.org/abs/2412.03878)
 #### Proceedings of [ECCV Workshop on Assistive Computer Vision and Robotics (ACVR), 2024](https://iplab.dmi.unict.it/acvr2024/)
 This paper combines a parametric model and a generative model to generate synthetic signing videos 
 in which the signer appearance can be customized in a zero-shot manner based on an image or
